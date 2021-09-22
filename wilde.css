@@ -64,24 +64,29 @@ background-color:rgb(163, 163, 162);
 tr:nth-child(even){
     background-color: rgba(128, 128, 128, 0.205) ;
 }
-ul.navbar-horizontal {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  ul.navbar-horizontal li {
-    float:left;/* line up horizontally */
-    color:#000;
-    background-color:blueviolet;
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e72020;
+    background-color:rgb(0, 0, 255);
   }
   
-  ul.navbar-horizontal a {
-    display:block;
-    padding:8px
+  li.navbar {
+    float: left;
   }
   
-  /* on hover change the link color*/
-  ul.navbar-horizontal a:hover {  
-    background-color: #555;
-    color:white;
+  li.navbar a {
+    display: block;
+    color: rgb(253, 253, 253);
+    text-align: left; 
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .icons
+  {
+      font-size: 70px;
   }
